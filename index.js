@@ -1,5 +1,5 @@
 import express from "express";const app = express();
-const PORT = 4300;app.get("/", (req, res) => {
+const PORT = 4000;app.get("/", (req, res) => {
   res.json({
     message: "Notetaking API v1"
   });
